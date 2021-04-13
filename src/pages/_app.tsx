@@ -5,3 +5,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 }
 
 export default MyApp
+
+/**
+ * É re-redenderizado toda vez que mudar de rota.
+ */
