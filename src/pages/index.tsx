@@ -1,12 +1,7 @@
-import Head from 'next/head';
+import { HomePage } from '../components/Home';
 
 export default function Home() {
   return (
-    <>
-      <Head>
-        <title>Início | ed.news</title>
-      </Head>
-      <h1>Hello World</h1>
-    </>
+    <HomePage />
   )
 }
